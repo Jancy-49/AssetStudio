@@ -76,7 +76,7 @@
             this.OKbutton.Name = "OKbutton";
             this.OKbutton.Size = new System.Drawing.Size(75, 21);
             this.OKbutton.TabIndex = 6;
-            this.OKbutton.Text = "OK";
+            this.OKbutton.Text = "确认";
             this.OKbutton.UseVisualStyleBackColor = true;
             this.OKbutton.Click += new System.EventHandler(this.OKbutton_Click);
             // 
@@ -87,7 +87,7 @@
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(75, 21);
             this.Cancel.TabIndex = 7;
-            this.Cancel.Text = "Cancel";
+            this.Cancel.Text = "取消";
             this.Cancel.UseVisualStyleBackColor = true;
             this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
@@ -106,7 +106,7 @@
             this.groupBox1.Size = new System.Drawing.Size(232, 334);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Export";
+            this.groupBox1.Text = "导出";
             // 
             // openAfterExport
             // 
@@ -117,7 +117,7 @@
             this.openAfterExport.Name = "openAfterExport";
             this.openAfterExport.Size = new System.Drawing.Size(168, 16);
             this.openAfterExport.TabIndex = 10;
-            this.openAfterExport.Text = "Open folder after export";
+            this.openAfterExport.Text = "导出后打开目录";
             this.openAfterExport.UseVisualStyleBackColor = true;
             // 
             // restoreExtensionName
@@ -129,7 +129,7 @@
             this.restoreExtensionName.Name = "restoreExtensionName";
             this.restoreExtensionName.Size = new System.Drawing.Size(216, 16);
             this.restoreExtensionName.TabIndex = 9;
-            this.restoreExtensionName.Text = "Restore TextAsset extension name";
+            this.restoreExtensionName.Text = "恢复文本资产扩展名";
             this.restoreExtensionName.UseVisualStyleBackColor = true;
             // 
             // assetGroupOptions
@@ -153,7 +153,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(149, 12);
             this.label6.TabIndex = 7;
-            this.label6.Text = "Group exported assets by";
+            this.label6.Text = "按分组导出资产";
             // 
             // convertAudio
             // 
@@ -164,7 +164,7 @@
             this.convertAudio.Name = "convertAudio";
             this.convertAudio.Size = new System.Drawing.Size(198, 16);
             this.convertAudio.TabIndex = 6;
-            this.convertAudio.Text = "Convert AudioClip to WAV(PCM)";
+            this.convertAudio.Text = "转换AudioClip为WAV(PCM)";
             this.convertAudio.UseVisualStyleBackColor = true;
             // 
             // panel1
@@ -229,7 +229,7 @@
             this.converttexture.Name = "converttexture";
             this.converttexture.Size = new System.Drawing.Size(126, 16);
             this.converttexture.TabIndex = 1;
-            this.converttexture.Text = "Convert Texture2D";
+            this.converttexture.Text = "转换Texture2D";
             this.converttexture.UseVisualStyleBackColor = true;
             // 
             // groupBox2
@@ -267,7 +267,7 @@
             this.exportAllUvsAsDiffuseMaps.Name = "exportAllUvsAsDiffuseMaps";
             this.exportAllUvsAsDiffuseMaps.Size = new System.Drawing.Size(204, 16);
             this.exportAllUvsAsDiffuseMaps.TabIndex = 23;
-            this.exportAllUvsAsDiffuseMaps.Text = "Export all UVs as diffuse maps";
+            this.exportAllUvsAsDiffuseMaps.Text = "导出全部UV为diffuse maps";
             this.exportUvsTooltip.SetToolTip(this.exportAllUvsAsDiffuseMaps, "Unchecked: UV1 exported as normal map. Check this if your export is missing a UV " +
         "map.");
             this.exportAllUvsAsDiffuseMaps.UseVisualStyleBackColor = true;
@@ -281,7 +281,7 @@
             this.exportBlendShape.Name = "exportBlendShape";
             this.exportBlendShape.Size = new System.Drawing.Size(126, 16);
             this.exportBlendShape.TabIndex = 22;
-            this.exportBlendShape.Text = "Export blendshape";
+            this.exportBlendShape.Text = "导出blendshape";
             this.exportBlendShape.UseVisualStyleBackColor = true;
             // 
             // exportAnimations
@@ -293,7 +293,7 @@
             this.exportAnimations.Name = "exportAnimations";
             this.exportAnimations.Size = new System.Drawing.Size(126, 16);
             this.exportAnimations.TabIndex = 21;
-            this.exportAnimations.Text = "Export animations";
+            this.exportAnimations.Text = "导出动画";
             this.exportAnimations.UseVisualStyleBackColor = true;
             // 
             // scaleFactor
@@ -400,7 +400,7 @@
             this.exportSkins.Name = "exportSkins";
             this.exportSkins.Size = new System.Drawing.Size(96, 16);
             this.exportSkins.TabIndex = 8;
-            this.exportSkins.Text = "Export skins";
+            this.exportSkins.Text = "导出皮肤";
             this.exportSkins.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -449,7 +449,7 @@
             this.exportAllNodes.Name = "exportAllNodes";
             this.exportAllNodes.Size = new System.Drawing.Size(120, 16);
             this.exportAllNodes.TabIndex = 4;
-            this.exportAllNodes.Text = "Export all nodes";
+            this.exportAllNodes.Text = "导出全部节点";
             this.exportAllNodes.UseVisualStyleBackColor = true;
             // 
             // eulerFilter

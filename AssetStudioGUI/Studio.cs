@@ -441,7 +441,7 @@ namespace AssetStudioGUI
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show($"Export {asset.Type}:{asset.Text} error\r\n{ex.Message}\r\n{ex.StackTrace}");
+                        //MessageBox.Show($"Export {asset.Type}:{asset.Text} error\r\n{ex.Message}\r\n{ex.StackTrace}");
                     }
 
                     Progress.Report(++i, toExportCount);
